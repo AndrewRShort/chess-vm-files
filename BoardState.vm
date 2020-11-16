@@ -1,0 +1,339 @@
+function BoardState.new 0
+push constant 12
+call Memory.alloc 1
+pop pointer 0
+push argument 0
+call Array.new 1
+pop this 9
+push constant 0
+pop this 10
+push constant 2
+call Array.new 1
+pop this 8
+push pointer 0
+call BoardState.resetKillers 1
+pop temp 0
+push pointer 0
+return
+function BoardState.dispose 0
+push argument 0
+pop pointer 0
+push this 8
+call Array.dispose 1
+pop temp 0
+push this 9
+call Array.dispose 1
+pop temp 0
+push pointer 0
+call Memory.deAlloc 1
+pop temp 0
+push constant 0
+return
+function BoardState.getEnPassantSq 0
+push argument 0
+pop pointer 0
+push this 1
+return
+function BoardState.getFiftyMoveCount 0
+push argument 0
+pop pointer 0
+push this 2
+return
+function BoardState.getCastlingRights 0
+push argument 0
+pop pointer 0
+push this 0
+return
+function BoardState.getCapturedPiece 0
+push argument 0
+pop pointer 0
+push this 3
+return
+function BoardState.getSideToMoveInCheck 0
+push argument 0
+pop pointer 0
+push this 4
+return
+function BoardState.getwMaterial 0
+push argument 0
+pop pointer 0
+push this 6
+return
+function BoardState.getbMaterial 0
+push argument 0
+pop pointer 0
+push this 7
+return
+function BoardState.getfNullMove 0
+push argument 0
+pop pointer 0
+push this 5
+return
+function BoardState.getKillerMoves 0
+push argument 0
+pop pointer 0
+push this 8
+return
+function BoardState.getPv 0
+push argument 0
+pop pointer 0
+push this 9
+return
+function BoardState.getPvCount 0
+push argument 0
+pop pointer 0
+push this 10
+return
+function BoardState.getPvMove 0
+push argument 0
+pop pointer 0
+push this 11
+return
+function BoardState.setPvMove 0
+push argument 0
+pop pointer 0
+push argument 1
+pop this 11
+push constant 0
+return
+function BoardState.resetPvCount 0
+push argument 0
+pop pointer 0
+push constant 0
+pop this 10
+push constant 0
+return
+function BoardState.updatePv 3
+push argument 0
+pop pointer 0
+push constant 0
+push this 9
+add
+push argument 1
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push argument 2
+call BoardState.getPv 1
+pop local 2
+push argument 2
+call BoardState.getPvCount 1
+pop local 1
+label WHILE_EXP0
+push local 0
+push local 1
+lt
+not
+if-goto WHILE_END0
+push local 0
+push constant 1
+add
+push this 9
+add
+push local 0
+push local 2
+add
+pop pointer 1
+push that 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push local 0
+push constant 1
+add
+pop local 0
+goto WHILE_EXP0
+label WHILE_END0
+push local 1
+push constant 1
+add
+pop this 10
+push constant 0
+return
+function BoardState.setSideToMoveInCheck 0
+push argument 0
+pop pointer 0
+push argument 1
+pop this 4
+push constant 0
+return
+function BoardState.resetState 0
+push argument 0
+pop pointer 0
+push constant 15
+pop this 0
+push constant 1
+neg
+pop this 1
+push constant 0
+pop this 2
+push constant 0
+pop this 3
+push constant 0
+pop this 4
+push constant 0
+pop this 5
+push constant 0
+pop this 11
+push constant 0
+return
+function BoardState.resetMaterial 4
+push argument 0
+pop pointer 0
+push argument 1
+call PieceList.getCount 1
+pop local 2
+push argument 1
+call PieceList.getPieces 1
+pop local 0
+push constant 0
+pop this 6
+label WHILE_EXP0
+push local 1
+push local 2
+lt
+not
+if-goto WHILE_END0
+push local 1
+push local 0
+add
+pop pointer 1
+push that 0
+pop local 3
+push this 6
+push local 3
+call Piece.getValue 1
+call Board.matValue 1
+add
+pop this 6
+push local 1
+push constant 1
+add
+pop local 1
+goto WHILE_EXP0
+label WHILE_END0
+push constant 0
+pop local 1
+push argument 2
+call PieceList.getCount 1
+pop local 2
+push argument 2
+call PieceList.getPieces 1
+pop local 0
+push constant 0
+pop this 7
+label WHILE_EXP1
+push local 1
+push local 2
+lt
+not
+if-goto WHILE_END1
+push local 1
+push local 0
+add
+pop pointer 1
+push that 0
+pop local 3
+push this 7
+push local 3
+call Piece.getValue 1
+push constant 7
+and
+call Board.matValue 1
+add
+pop this 7
+push local 1
+push constant 1
+add
+pop local 1
+goto WHILE_EXP1
+label WHILE_END1
+push constant 0
+return
+function BoardState.setState 0
+push argument 0
+pop pointer 0
+push argument 1
+pop this 2
+push argument 2
+pop this 1
+push argument 3
+pop this 0
+push argument 4
+pop this 3
+push argument 5
+pop this 6
+push argument 6
+pop this 7
+push argument 7
+pop this 5
+push constant 0
+return
+function BoardState.storeKiller 0
+push argument 0
+pop pointer 0
+push argument 1
+push constant 0
+push this 8
+add
+pop pointer 1
+push that 0
+eq
+push argument 1
+push constant 1
+push this 8
+add
+pop pointer 1
+push that 0
+eq
+or
+not
+if-goto IF_TRUE0
+goto IF_FALSE0
+label IF_TRUE0
+push constant 1
+push this 8
+add
+push constant 0
+push this 8
+add
+pop pointer 1
+push that 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 0
+push this 8
+add
+push argument 1
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+label IF_FALSE0
+push constant 0
+return
+function BoardState.resetKillers 0
+push argument 0
+pop pointer 0
+push constant 0
+push this 8
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push this 8
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 0
+return

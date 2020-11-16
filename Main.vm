@@ -1,0 +1,105 @@
+function Main.main 3
+call Board.init 0
+pop temp 0
+call Game.init 0
+pop temp 0
+call MoveList.init 0
+pop temp 0
+call Book.init 0
+pop temp 0
+call UIBoard.init 0
+pop temp 0
+push constant 18
+call String.new 1
+push constant 80
+call String.appendChar 2
+push constant 108
+call String.appendChar 2
+push constant 97
+call String.appendChar 2
+push constant 121
+call String.appendChar 2
+push constant 32
+call String.appendChar 2
+push constant 97
+call String.appendChar 2
+push constant 103
+call String.appendChar 2
+push constant 97
+call String.appendChar 2
+push constant 105
+call String.appendChar 2
+push constant 110
+call String.appendChar 2
+push constant 32
+call String.appendChar 2
+push constant 40
+call String.appendChar 2
+push constant 89
+call String.appendChar 2
+push constant 47
+call String.appendChar 2
+push constant 78
+call String.appendChar 2
+push constant 41
+call String.appendChar 2
+push constant 63
+call String.appendChar 2
+push constant 32
+call String.appendChar 2
+pop local 1
+push constant 0
+not
+pop local 2
+call Game.new 0
+pop local 0
+label WHILE_EXP0
+push local 2
+not
+if-goto WHILE_END0
+push local 0
+call Game.run 1
+pop temp 0
+call Output.println 0
+pop temp 0
+call Output.println 0
+pop temp 0
+push local 1
+call Output.printString 1
+pop temp 0
+call KeyboardUtil.readCharYesNo 0
+pop local 2
+push local 2
+if-goto IF_TRUE0
+goto IF_FALSE0
+label IF_TRUE0
+call Screen.clearScreen 0
+pop temp 0
+push constant 0
+push constant 0
+call Output.moveCursor 2
+pop temp 0
+push local 0
+call Game.clearBoard 1
+pop temp 0
+label IF_FALSE0
+goto WHILE_EXP0
+label WHILE_END0
+push local 1
+call String.dispose 1
+pop temp 0
+push local 0
+call Game.dispose 1
+pop temp 0
+call Board.final 0
+pop temp 0
+call Game.final 0
+pop temp 0
+call MoveList.final 0
+pop temp 0
+call Book.final 0
+pop temp 0
+call UIBoard.final 0
+pop temp 0
+push constant 0
+return

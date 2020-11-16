@@ -1,0 +1,37 @@
+function KeyboardUtil.readCharYesNo 1
+label WHILE_EXP0
+push constant 0
+not
+not
+if-goto WHILE_END0
+call Keyboard.readChar 0
+pop local 0
+push local 0
+push constant 89
+eq
+if-goto IF_TRUE0
+goto IF_FALSE0
+label IF_TRUE0
+push constant 0
+not
+return
+goto IF_END0
+label IF_FALSE0
+push local 0
+push constant 78
+eq
+if-goto IF_TRUE1
+goto IF_FALSE1
+label IF_TRUE1
+push constant 0
+return
+goto IF_END1
+label IF_FALSE1
+call Output.backSpace 0
+pop temp 0
+label IF_END1
+label IF_END0
+goto WHILE_EXP0
+label WHILE_END0
+push constant 0
+return

@@ -1,0 +1,1840 @@
+function Book.init 1
+push constant 4762
+pop static 2
+push constant 4827
+pop static 3
+push constant 4892
+pop static 4
+push constant 1828
+pop static 5
+push constant 82
+pop static 6
+push constant 75
+pop static 7
+push constant 405
+pop static 8
+push constant 353
+pop static 9
+push constant 346
+pop static 10
+push constant 18211
+pop static 11
+push constant 17755
+pop static 12
+push constant 7330
+pop static 13
+push constant 7395
+pop static 14
+push constant 7460
+pop static 15
+push constant 3112
+pop static 16
+push constant 3242
+pop static 17
+push constant 3307
+pop static 18
+push constant 3372
+pop static 19
+push constant 3502
+pop static 20
+push constant 3690
+pop static 21
+push constant 2915
+pop static 22
+push constant 4013
+pop static 23
+push constant 3938
+pop static 24
+push constant 18587
+pop static 25
+push constant 18650
+pop static 26
+push constant 18652
+pop static 27
+push constant 20195
+pop static 28
+push constant 0
+pop static 1
+push constant 24
+call Array.new 1
+pop static 0
+push constant 3
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 2
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 13
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 3
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 2
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 15
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 5
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 3
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 14
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 2
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 19
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 5
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 3
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 14
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 2
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 26
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 5
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 3
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 14
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 2
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 17
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 5
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 3
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 23
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 2
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 19
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 10
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 4
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 13
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 8
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 18
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push static 3
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 5
+push local 0
+add
+push static 25
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 6
+push local 0
+add
+push static 12
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 7
+push local 0
+add
+push static 23
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 8
+push local 0
+add
+push static 6
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 9
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 8
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 4
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 13
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 8
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 21
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push static 3
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 5
+push local 0
+add
+push static 25
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 6
+push local 0
+add
+push static 12
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 7
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 8
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 4
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 13
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 8
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 19
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push static 3
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 5
+push local 0
+add
+push static 25
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 6
+push local 0
+add
+push static 12
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 7
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 7
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 4
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 15
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 8
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 21
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push static 9
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 5
+push local 0
+add
+push static 16
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 6
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 7
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 4
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 15
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 8
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 21
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push static 9
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 5
+push local 0
+add
+push static 18
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 6
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 7
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 4
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 15
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 8
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 21
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push static 9
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 5
+push local 0
+add
+push static 23
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 6
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 7
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 4
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 15
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 8
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 21
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push static 10
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 5
+push local 0
+add
+push static 24
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 6
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 7
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 4
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 15
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 8
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 21
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push static 10
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 5
+push local 0
+add
+push static 23
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 6
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 7
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 4
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 15
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 8
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 21
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push static 6
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 5
+push local 0
+add
+push static 23
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 6
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 6
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 4
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 15
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 8
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 21
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push static 3
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 5
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 6
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 4
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 19
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 3
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 14
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push static 6
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 5
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 6
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 4
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 19
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 3
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 14
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push static 7
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 5
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 7
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 4
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 17
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 3
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 14
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push static 6
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 5
+push local 0
+add
+push static 27
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 6
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 5
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 4
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 14
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 11
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 28
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 5
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 4
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 14
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 11
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 23
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 7
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 4
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 18
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 3
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 23
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push static 6
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 5
+push local 0
+add
+push static 20
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 6
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 5
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 4
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 23
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 5
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push static 22
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 4
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 4
+call Array.new 1
+pop local 0
+push constant 0
+push local 0
+add
+push static 8
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push local 0
+add
+push static 14
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push local 0
+add
+push static 2
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 3
+push local 0
+add
+push constant 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push static 0
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push static 1
+push constant 1
+add
+pop static 1
+push constant 0
+return
+function Book.final 2
+label WHILE_EXP0
+push local 0
+push static 1
+lt
+not
+if-goto WHILE_END0
+push local 0
+push static 0
+add
+pop pointer 1
+push that 0
+pop local 1
+push local 1
+call Array.dispose 1
+pop temp 0
+push local 0
+push constant 1
+add
+pop local 0
+goto WHILE_EXP0
+label WHILE_END0
+push static 0
+call Array.dispose 1
+pop temp 0
+push constant 0
+return
+function Book.new 0
+push constant 2
+call Memory.alloc 1
+pop pointer 0
+push pointer 0
+call Book.resetWindow 1
+pop temp 0
+push pointer 0
+return
+function Book.dispose 0
+push argument 0
+pop pointer 0
+push pointer 0
+call Memory.deAlloc 1
+pop temp 0
+push constant 0
+return
+function Book.resetWindow 0
+push argument 0
+pop pointer 0
+push constant 0
+pop this 0
+push static 1
+push constant 1
+sub
+pop this 1
+push constant 0
+return
+function Book.getBookMove 9
+push argument 0
+pop pointer 0
+push argument 1
+call MoveList.getMoves 1
+pop local 4
+push argument 1
+call MoveList.getCount 1
+pop local 2
+push local 2
+push constant 0
+eq
+if-goto IF_TRUE0
+goto IF_FALSE0
+label IF_TRUE0
+push argument 2
+push this 0
+push this 1
+call LFSR32Rand.randRange 3
+pop local 3
+push local 3
+push static 0
+add
+pop pointer 1
+push that 0
+pop local 5
+push constant 0
+push local 5
+add
+pop pointer 1
+push that 0
+return
+goto IF_END0
+label IF_FALSE0
+push this 0
+pop local 0
+push this 1
+pop local 1
+push constant 0
+pop local 6
+push constant 0
+pop local 8
+label WHILE_EXP0
+push local 0
+push local 1
+gt
+not
+push local 8
+not
+and
+not
+if-goto WHILE_END0
+push local 0
+push static 0
+add
+pop pointer 1
+push that 0
+pop local 5
+push local 2
+push constant 1
+eq
+if-goto IF_TRUE1
+goto IF_FALSE1
+label IF_TRUE1
+push constant 0
+push local 5
+add
+pop pointer 1
+push that 0
+push constant 0
+push local 4
+add
+pop pointer 1
+push that 0
+eq
+pop local 7
+goto IF_END1
+label IF_FALSE1
+push constant 0
+pop local 7
+push local 2
+push constant 2
+sub
+push local 5
+add
+pop pointer 1
+push that 0
+push constant 0
+eq
+not
+if-goto IF_TRUE2
+goto IF_FALSE2
+label IF_TRUE2
+push local 2
+push constant 1
+sub
+push local 5
+add
+pop pointer 1
+push that 0
+push constant 0
+eq
+not
+if-goto IF_TRUE3
+goto IF_FALSE3
+label IF_TRUE3
+push local 2
+push constant 1
+sub
+push local 5
+add
+pop pointer 1
+push that 0
+push local 2
+push constant 1
+sub
+push local 4
+add
+pop pointer 1
+push that 0
+eq
+push local 2
+push constant 2
+sub
+push local 5
+add
+pop pointer 1
+push that 0
+push local 2
+push constant 2
+sub
+push local 4
+add
+pop pointer 1
+push that 0
+eq
+and
+pop local 7
+label IF_FALSE3
+label IF_FALSE2
+label IF_END1
+push local 7
+if-goto IF_TRUE4
+goto IF_FALSE4
+label IF_TRUE4
+push local 6
+if-goto IF_TRUE5
+goto IF_FALSE5
+label IF_TRUE5
+push local 0
+pop this 1
+goto IF_END5
+label IF_FALSE5
+push local 0
+pop this 0
+push local 0
+pop this 1
+push constant 0
+not
+pop local 6
+label IF_END5
+goto IF_END4
+label IF_FALSE4
+push local 6
+if-goto IF_TRUE6
+goto IF_FALSE6
+label IF_TRUE6
+push constant 0
+not
+pop local 8
+label IF_FALSE6
+label IF_END4
+push local 0
+push constant 1
+add
+pop local 0
+goto WHILE_EXP0
+label WHILE_END0
+push local 6
+if-goto IF_TRUE7
+goto IF_FALSE7
+label IF_TRUE7
+push argument 2
+push this 0
+push this 1
+call LFSR32Rand.randRange 3
+pop local 3
+push local 3
+push static 0
+add
+pop pointer 1
+push that 0
+pop local 5
+push local 2
+push local 5
+add
+pop pointer 1
+push that 0
+return
+label IF_FALSE7
+label IF_END0
+push constant 0
+return
